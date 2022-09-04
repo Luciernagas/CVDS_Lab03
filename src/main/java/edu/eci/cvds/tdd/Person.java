@@ -1,4 +1,4 @@
-package edu.eci.cvds.tdd.registry;
+package edu.eci.cvds.tdd;
 /**
  * Person representation Class
  */
