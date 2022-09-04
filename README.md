@@ -24,8 +24,8 @@ $ mvn test
 ![image](https://user-images.githubusercontent.com/104604359/188336858-e9429212-5505-4a85-8cbe-9aee98a0b21f.png)
 ![image](https://user-images.githubusercontent.com/104604359/188336873-18868628-bf4a-4379-8e82-45f2b50cfed2.png)
 
-### FINALIZAR EL EJERCICIO
-### Diseño de casos de prueba
+### FINALIZAR EL EJERCICIO - Diseño de casos de prueba
+
 Input: n
 
 Valid: 18 <= n <= 99
@@ -39,7 +39,7 @@ Invalid_age: 0 <= n
 ![image](https://user-images.githubusercontent.com/104604359/188336953-2642c69f-ce4b-443e-862d-a0a18ab41d46.png)
 
 ### EJERCICIO "DESCUENTO DE TARIFAS"
-### IMPLEMENTACIÓN DE LAS PRUEBAS
+IMPLEMENTACIÓN DE LAS PRUEBAS
 
 ![image](https://user-images.githubusercontent.com/104604359/188336969-5d8a7f35-5eef-4562-9a01-981dba172073.png)
 
