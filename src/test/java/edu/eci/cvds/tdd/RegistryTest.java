@@ -47,14 +47,16 @@ public class RegistryTest {
         Assert.assertEquals(RegisterResult.INVALID_AGE, result);
     }
 
-    //@Test
-   // public void dada_unaPersona_que_yaSeRegristro_Entonces_retorna_DUPLICATE(){
+    @Test
+    public void dada_unaPersona_que_yaSeRegristro_Entonces_retorna_DUPLICATE(){
         //Arrange
-     //   Person person = new Person("Edgar", 1004567889, 30,Gender.MALE,true);
+        Person person_1 = new Person("Edgar", 1004567889, 30,Gender.MALE,true);
+        Person person_2 = new Person("Edgar", 1004567889, 30,Gender.MALE,true);
         //Action
-       // RegisterResult result = registry.registerVoter(person);
+        RegisterResult result_1 = registry.registerVoter(person_1);
+        RegisterResult result_2 = registry.registerVoter(person_2);
         //Assertion
-        //Assert.assertEquals(RegisterResult.DUPLICATED, result);
-    //}
+        Assert.assertEquals(RegisterResult.DUPLICATED, result_2);
+    }
 
 }

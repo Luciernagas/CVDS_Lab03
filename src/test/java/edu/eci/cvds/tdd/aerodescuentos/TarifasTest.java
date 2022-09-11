@@ -6,26 +6,6 @@ import org.junit.Test;
 
 public class TarifasTest {
     @Test
-    public void dada_edadCero_retorna_Error() {
-        try {
-            CalculadorDescuentos.calculoTarifa(5000000, 15, 0);
-            Assert.assertTrue(false);
-        } catch (Exception e) {
-            Assert.assertTrue(true);
-        }
-    }
-
-    @Test
-    public void dada_edadMenorACero_retorna_Error() {
-        try {
-            CalculadorDescuentos.calculoTarifa(5000000, 15, -8);
-            Assert.assertTrue(false);
-        } catch (Exception e) {
-            Assert.assertTrue(true);
-        }
-    }
-
-    @Test
     public void dada_edadDosAños_retorna_descuentoCincoPorciento() {
         int resultado = (int) CalculadorDescuentos.calculoTarifa(50000, 6, 2);
         int respuestaEsperada = 47500;

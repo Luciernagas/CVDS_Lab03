@@ -36,6 +36,7 @@ Underage: 1 <= n <= 17
 
 Invalid_age: 0 <= n
 
+Si n es igual a un input anteriormente ingresado entonces retorna DUPLICATE
 ![image](https://user-images.githubusercontent.com/104604359/188336953-2642c69f-ce4b-443e-862d-a0a18ab41d46.png)
 
 ### EJERCICIO "DESCUENTO DE TARIFAS"
@@ -58,9 +59,7 @@ IMPLEMENTACIÓN DE LAS PRUEBAS
 
 3.	Casos de prueba especificos 
 
-![image](https://user-images.githubusercontent.com/104604359/188337182-366c16ff-6dbc-4631-ae52-3bbb64870703.png)
-
-
+![img_1.png](img_1.png)
     
 
 
