@@ -59,7 +59,4 @@ IMPLEMENTACIÓN DE LAS PRUEBAS
 
 3.	Casos de prueba especificos 
 
-![img_1.png](img_1.png)
-    
-
-
+![image](https://user-images.githubusercontent.com/104604359/189512527-d41b57f0-ba40-4659-ab5b-c888ef1efc81.png)
