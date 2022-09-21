@@ -24,6 +24,11 @@ $ mvn test
 ![image](https://user-images.githubusercontent.com/104604359/188336858-e9429212-5505-4a85-8cbe-9aee98a0b21f.png)
 ![image](https://user-images.githubusercontent.com/104604359/188336873-18868628-bf4a-4379-8e82-45f2b50cfed2.png)
 
+#### Diferencias entre mvn package / mvn test
+**mvn package:** Toma el código compilado y lo empaqueta en un formato distribuible como un JAR.
+
+**mvn test:** Corre las pruebas usando una suite de pruebas de un framework de pruebas (En este caso JUnit). Estas pruebas no requieren que el código sea empaquetado o distribuido.
+
 ### FINALIZAR EL EJERCICIO - Diseño de casos de prueba
 
 Input: n
@@ -38,6 +43,8 @@ Invalid_age: 0 <= n
 
 Si n es igual a un input anteriormente ingresado entonces retorna DUPLICATE
 ![image](https://user-images.githubusercontent.com/104604359/188336953-2642c69f-ce4b-443e-862d-a0a18ab41d46.png)
+
+![image](https://user-images.githubusercontent.com/104604359/191390013-6116f7f8-3a0b-4bb5-938c-185bdcbbadde.png)
 
 ### EJERCICIO "DESCUENTO DE TARIFAS"
 IMPLEMENTACIÓN DE LAS PRUEBAS
@@ -60,3 +67,6 @@ IMPLEMENTACIÓN DE LAS PRUEBAS
 3.	Casos de prueba especificos 
 
 ![image](https://user-images.githubusercontent.com/104604359/189512527-d41b57f0-ba40-4659-ab5b-c888ef1efc81.png)
+
+![image](https://user-images.githubusercontent.com/104604359/191390112-ccc1282c-9ce2-41c3-a091-56c949c7e7ab.png)
+
